@@ -14,8 +14,11 @@ H4 -
 */
 
 .CH1{ color: #ff3860 !important }
-.CH2{ color: #ff3860 !important }
-.CH3{ color: #000000 !important }
+.CH2{ 
+  color: #ff3860 !important;
+  font-weight: bold;
+  text-align: left; }
+.CH3{ color: #3273dc !important }
 .CH4{ color: #000000 !important }
 .CH5{ color: #000000 !important }
 .CH6{ color: #000000 !important }
@@ -117,8 +120,7 @@ a.nav-item.active {
 
 .intro {
 	text-align: center;
-	width: 80%;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .void-background {
