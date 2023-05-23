@@ -24,10 +24,10 @@ H4 -
 .CH6{ color: #000000 !important }
 
 html, body{
-	font-family: 'Grandstander', cursive;
-	font-size:17px;
-	color: #000000;
-	background-color: #fadf67; 
+	font-family: sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #fadf67;
 }
 
 a {
