@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="Blockchain - KhizoOo">
+    <meta name="author" content="KhizoOo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:site" content="@khizaroo">
+    <meta name="google-site-verification" content="tPPq9BHgWFlHRRBE_jnKnbh0LlRxe50ArDoWoX8RfNM" />
+
+    <title>Blockchainn - Ethereum Virtual Machine</title>
+    <meta property="og:image:alt" content="Blockchainn - Ethereum Virtual Machine">
+    <meta name="twitter:title" content="Blockchainn - Ethereum Virtual Machine">
+    <meta property="og:title" content="Blockchainn - Ethereum Virtual Machine">
+    <meta itemprop="name" content="Blockchainn - Ethereum Virtual Machine">
+
+    <meta name="keywords" content="Blockchainn - Ethereum Virtual Machine, decentralized applications, scalability, speed, security, blockchain technology">
+
+    <meta name="description" content="Discover the power of Solana, a revolutionary blockchain platform that enables high-performance decentralized applications. Explore the scalability, speed, and security features of Solana and unlock the potential of blockchain technology for your projects.">
+    <meta property="og:description" content="Discover the power of Solana, a revolutionary blockchain platform that enables high-performance decentralized applications. Explore the scalability, speed, and security features of Solana and unlock the potential of blockchain technology for your projects.">
+    <meta name="twitter:description" content="Discover the power of Solana, a revolutionary blockchain platform that enables high-performance decentralized applications. Explore the scalability, speed, and security features of Solana and unlock the potential of blockchain technology for your projects.">
+    <meta itemprop="description" content="Discover the power of Solana, a revolutionary blockchain platform that enables high-performance decentralized applications. Explore the scalability, speed, and security features of Solana and unlock the potential of blockchain technology for your projects.">
+
+    <meta property="og:url" content="https://khizooo.com/Tech/21/Blockchain-Solana.html">
+    <meta property="og:image" content="https://khizooo.com/Tech/21/Blockchain-Solana.png">
+    <meta name="twitter:card" content="https://khizooo.com/Tech/21/Blockchain-Solana.png">
+    <meta name="twitter:image" content="https://khizooo.com/Tech/21/Blockchain-Solana.png">
+    <meta itemprop="image" content="https://khizooo.com/Tech/21/Blockchain-Solana.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/treeflex@2.0.1/dist/css/treeflex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Grandstander:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="../../assets/img/my_pics/02.png">
+
+    <link rel="stylesheet" type="text/css" href="../../assets/css/styles.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GT-55BQQC8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'GT-55BQQC8');
+    </script>
+
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1199865962852645" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="nav container void-background">
+        <div class="nav-left">
+
+            <div class="nav-left">
+                <a href="https://www.facebook.com/khizoooartist" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-facebook"></i>
+                    </span>
+                </a>
+                <a href="https://twitter.com/khizaroo" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/khizooo_art" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-instagram"></i>
+                    </span>
+                </a>
+                <a href="https://youtube.com/@khizooo?sub_confirmation=1" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-youtube"></i>
+                    </span>
+                </a>
+                <a href="https://www.snapchat.com/add/khizooo_1163?share_id=ZIvI4JY3joU&locale=en-PK" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-snapchat"></i>
+                    </span>
+                </a>
+                <a href="https://www.tiktok.com/@khizooo_butt" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 20px;">
+                            <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" /></svg>
+                    </span>
+                </a>
+                <a href="https://opensea.io/KhizoOo_" class="nav-item" rel="nofollow">
+                    <span class="icon">
+                        <i class="fa fa-arrows"></i>
+                    </span>
+                </a>
+
+            </div>
+
+
+        </div>
+
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="../../aboutme.html">About Me</a>
+            <a class="nav-item" href="../../Arts/arts.html">Art</a>
+            <a class="nav-item active" href="../tech.html">Tech</a>
+            <a class="nav-item" href="../../social.html">Social</a>
+        </div>
+
+        <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+
+    </nav>
+
+    <section id="about" class="section section-1">
+        <div class="container has-text-centered" style="margin-bottom: 25px;">
+            <img class="ArtMainImg" src="Blockchain-Ethereum-Virtual-Machine.png" alt="Blockchainn - Ethereum Virtual Machine" title="Blockchainn - Ethereum Virtual Machine">
+        </div>
+        <div class="container has-text-centered">
+
+            <h1 class="intro" style="text-align:center">
+                <span class="title">
+                    <b style="font-family: 'Grandstander', cursive;">Blockchainn - Ethereum Virtual Machine</b>
+                </span>
+            </h1>
+
+            <br>
+
+            <h2 class="intro title" style="text-align:left">
+                A beginner's guide related to Blockchainn - Ethereum Virtual Machine
+            </h2>
+
+            <p class="intro" style="text-align:justify !important">
+                We'll plunge into the intriguing universe of Ethereum and investigate one of its center parts: the Ethereum Virtual Machine (EVM). As Ethereum keeps on altering the blockchain space, understanding how the EVM works is fundamental for getting a handle on its true capacity and opening the full capacities of decentralized applications (dApps). Thus, how about we leave on this excursion to unwind the secrets of the Ethereum Virtual Machine!
+                <br><br>
+                <b class="CH2">Understanding Ethereum</b>
+                <br><br>
+                Before we dig into the Ethereum Virtual Machine, how about we handle the essentials of Ethereum itself. Ethereum is an open-source blockchain stage that empowers engineers to construct decentralized applications. It was proposed by Vitalik Buterin in 2013 and has since developed into one of the most noticeable blockchain networks.
+                <br><br>
+                Dissimilar to Bitcoin, which principally centers around shared electronic money exchanges, Ethereum goes past cash. It gives a stage to executing brilliant agreements, which are self-executing concurrences with predefined conditions. These shrewd agreements run on the Ethereum Virtual Machine, the foundation of Ethereum's programmable usefulness.
+                <br><br>
+            </p>
+
+            <p class="intro" style="text-align:justify !important">
+                <b class="CH2">What is the Ethereum Virtual Machine (EVM)?</b>
+                <br><br>
+                The Ethereum Virtual Machine (EVM) can be considered a sandboxed runtime climate inside the Ethereum organization. It fills in as a decentralized worldwide PC, executing brilliant agreements and working with the activity of decentralized applications. All in all, the EVM empowers the execution of code written in Ethereum's modifying language, Robustness.
+                <br><br>
+                The EVM's engineering is pivotal for the interoperability and security of the Ethereum biological system. It guarantees that code execution is deterministic, implying that given a similar information, the result will constantly be something very similar. This determinism ensures the consistency of savvy contract execution across all hubs in the organization.
+                <br><br>
+            </p>
+
+            <p class="intro" style="text-align:justify !important">
+                <b class="CH2">EVM's Role in Smart Contract Execution</b>
+                <br><br>
+                At the point when a shrewd agreement is made and sent on the Ethereum organization, it is written in undeniable level dialects like Robustness and afterward gathered into bytecode, a low-level portrayal of the code. This bytecode is the very thing the EVM comprehends and executes.
+                <br><br>
+                Each exchange on the Ethereum network sets off the EVM to execute the related shrewd agreement code. Diggers and hubs in the organization approve and execute these exchanges by running the bytecode through their nearby case of the EVM. This decentralized execution guarantees that all members settle on the state changes coming about because of the savvy agreement's execution.
+                <br><br>
+            </p>
+
+            <p class="intro" style="text-align:justify !important">
+              
+                <b class="CH2">EVM's Advantages and Limitations</b>
+                <br><br>
+                At the point when a shrewd agreement is made and sent on the Ethereum organization, it is written in undeniable level dialects like Robustness and afterward gathered into bytecode, a low-level portrayal of the code. This bytecode is the very thing the EVM comprehends and executes.
+                <br><br>
+                Each exchange on the Ethereum network sets off the EVM to execute the related shrewd agreement code. Diggers and hubs in the organization approve and execute these exchanges by running the bytecode through their nearby case of the EVM. This decentralized execution guarantees that all members settle on the state changes coming about because of the savvy agreement's execution.
+                <br><br>
+            </p>
+
+
+            <p class="intro" style="text-align:justify !important">
+                <b class="CH2">Conclusion</b>
+                <br>
+                All in all, the Ethereum Virtual Machine (EVM) is the foundation of Ethereum's programmable usefulness. It executes savvy contracts and empowers the formation of decentralized applications, reforming different businesses. Understanding the EVM is fundamental for engineers and fans hoping to use Ethereum's abilities and add to the decentralized future. We trust this blog entry has revealed insight into the Ethereum Virtual Machine and enlivened you to investigate its tremendous conceivable outcomes further.
+                <br><br>
+                Keep in mind, as the Ethereum biological system keeps on developing, the Ethereum Virtual Machine will assume a significant part in forming the eventual fate of decentralized applications and blockchain innovation overall.
+                <br><br>
+            </p>
+
+            <p class="intro" style="text-align:justify !important">
+                <br><br>
+                Thank you for reading, and stay tuned for more exciting insights into the world of blockchain and cryptocurrencies!
+            </p>
+
+
+            </div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <section class="section-4 has-text-centered container">
+        <a href="https://khizooo.com">KhizoOo</a>
+    </section>
+
+    <!-- Scripts  -->
+    <script src="../../controller.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+</body>
+
+</html>
