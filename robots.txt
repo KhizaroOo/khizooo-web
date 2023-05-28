@@ -1,4 +1,11 @@
 User-agent: *
+Disallow:
+
+User-agent: Googlebot-AdsBot
+Disallow:
+
+User-agent: Adsbot-Google
+Disallow:
 
 Sitemap: https://khizooo.com/sitemap.xml
 Sitemap: https://khizooo.com/Tech/sitemap.xml
